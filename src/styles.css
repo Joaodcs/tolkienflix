@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Bebas-Regular', Courier, monospace;
+}
+
+.banner{
+    height: 100vh;
+    width: 100vw;
+    background-position: 100%;
+    background-image: url("/tolkienflix/src/img/hobbit1-cover.jpg")
+}
+
+.banner h1{
+    padding-top: 400px;
+    margin-left: 50px;
+    font-size: 40px;
+    color:#fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.banner p{
+    margin-left: 50px;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.banner button{
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 60px;
+    width: 200px;
+}
